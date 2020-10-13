@@ -1,0 +1,187 @@
+*{
+     margin: 0; */
+    padding: 0;
+    box-sizing: border-box;
+}
+.header{
+    display: flex;
+    justify-content: space-between;
+}
+.website{
+    font-size: 30px;
+    padding: 8px 16px;
+    /* margin: 20px 20px 10px; */
+}
+.website:hover{
+    color: coral;
+}
+.website{
+    animation-name: flash;
+    animation-duration: 2s;
+    animation-iteration-count: infinite;
+}
+
+.title{
+    font-size: 15px;
+    /* margin: 15px 15px; */
+    padding: 16px 16px;
+}
+.menu{
+    background-color: rgb(60, 107, 91);
+    display: flex;
+    justify-content: center;
+}
+.menu-item{
+    padding: 15px 15px;
+    width: 10%;
+    text-align: center;
+    color: white;
+    position: relative;
+    margin: 0 10px;
+}
+.menu-item:hover{
+    background-color: rgb(26, 46, 39);
+}
+.sub-menu{
+    display: none;
+    width: 100%;
+    position: absolute;
+    left: 0;
+    top: 100%;
+    z-index: 100;
+}
+.menu-item1{
+    background-color: rgb(64, 155, 94);
+    padding: 8px 10px;
+    position: relative;
+}
+.menu-item1:hover{
+    background-color:rgb(250, 204, 54);
+    color: black;
+}
+.menu-item:hover .sub-menu{
+    display: block;
+}
+.item{
+    display: none;
+    position: absolute;
+    width: 100%;
+}
+.item1{
+    background-color:rgb(252, 206, 56);
+    color: black;
+    padding: 8px 10px;
+}
+.item1:hover{
+    background-color:rgb(185, 153, 45) ;
+}
+.menu-item1:hover .item{
+    display: block;
+    left: 100%;
+    top: 0;
+}
+.main-img{
+    display: flex;
+    width: 100%;
+    /* margin: 3%;  */
+    justify-content: space-between;
+}
+.left{
+    display: flex;
+    /* width: 100%; */
+    position: relative;
+    flex-basis: 40%;
+}
+.introduction{
+    font-size: 25px;
+    color: coral;
+    flex-basis: 40%;
+    margin-top: 35%;
+    padding-left: 30px;
+}
+.introduction>button{
+    background-color: black;
+    color: white;
+    border-radius: 20px;
+    padding: 10px 30px;
+    border: none;
+}
+.introduction>button:hover{
+    background-color: white;
+    color: black;
+    border: black 1px solid;
+    cursor: pointer;
+}
+.introduction>p{
+    z-index: 1;
+}
+.introduction>h1{
+    color: black;
+}
+.image{
+    z-index: -1; 
+    flex-basis: 60%;
+    position: absolute;
+    left: 30%;
+    top: 2%;
+}
+.image>img{
+    filter: blur(2px);
+}
+.right{
+    margin: 3% 2%;
+    flex-basis: 50%;
+}
+.main-content{
+    /* margin: 3%; */
+    width: 90%;
+    margin: 0 auto;
+}
+.product{
+    display: flex;
+    align-items: center;
+    margin-top: 3%;
+}
+.book{
+    position: relative;
+    width: 50%; 
+}
+.book::before{
+    position: absolute;
+    content: "new";
+    text-transform: uppercase;
+    right: 0;
+    top: 20px;
+    background-color: coral;
+    padding: 8px 16px;
+    transform: translateX(50%);
+    z-index: 10;
+}
+.text{
+    font-size: 20px;
+    margin-left: 8%;
+    margin-right: 8%;
+}
+.text>h3{
+    color: tomato;
+}
+.text>a{
+    text-decoration: none;
+    background-color: black;
+    color: white;
+    border-radius: 20px;
+    padding: 8px 16px;
+}
+.text>a:hover{
+    background-color: white;
+    color: black;
+    border: black 1px solid;
+}
+.footer{
+    margin-top: 3%;
+    background-color: coral;
+    color: white;
+    padding: 20px;
+    font-size: 25px;
+    text-align: center;
+}
