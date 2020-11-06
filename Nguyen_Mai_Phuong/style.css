@@ -1,0 +1,164 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+.menu{
+    width: 80%;
+    margin: auto;
+    display: flex;
+    padding: 30px 0 ;
+    justify-content: space-around;
+}
+.menu>img{
+    width: 30px;
+    height: 30px;
+}
+.main-menu>ul{
+    display: flex;
+    list-style: none;
+}
+.main-menu>ul>li{
+    padding: 10px 20px;
+}
+.main-menu>ul>li:hover{
+    color: blue;
+}
+.sub-menu{
+    display: flex;
+}
+.sub-menu>p{
+    color: blue;
+    padding: 10px 20px;
+
+}
+.sub-menu>p:hover{
+    text-decoration: underline;
+}
+.text-box{
+    padding: 8px 8px;
+    border: 1px solid red;
+    color: red;
+}
+.text-box:hover{
+    background-color: red;
+    color: white;
+}
+.introduction{
+    width: 80%;
+    display: flex;
+    margin: auto;
+    padding: 30px 0 ;
+    justify-content: space-between;
+}
+
+.left>h3{
+    padding: 0 30px;
+    font-size: 40px;
+    color: rgb(1, 1, 85);
+}
+.left>p{
+    padding: 0 30px;
+}
+.main-intro{
+    line-height: 40px;
+    margin-top: 20px;
+}
+.main-intro>img{
+    padding-right: 10px ;
+}
+.left>span{
+    padding: 20px 50px;
+    background-color: rgb(240, 85, 85);
+    color: white;
+    margin: 30px;
+    border-radius: 10px;
+}
+.box{
+    color: black!important;
+    background-color: white!important;
+    border: solid 1px rgb(177, 173, 173);
+}
+.right{
+    width: 40%;
+}
+.content{
+    text-align: center;
+    padding: 30px 0;
+}
+.content>h3{
+    color:rgb(1, 1, 85) ;
+    font-size: 30px;
+    padding: 30px 0;
+}
+.content>p{
+    width: 30%;
+    margin: auto;
+    color: grey;
+    padding-bottom: 30px;
+}
+.main-content{
+    width: 30%;
+    margin: auto;
+}
+.main-content>span{
+    border: solid 1px rgb(177, 173, 173);
+    padding: 8px 16px;
+    border-radius: 10px;
+    line-height: 50px;
+}
+.main-content>span:hover{
+    background-color: rgb(153, 151, 151);
+}
+.container{
+    background-color: rgb(247, 196, 221);
+    width: 100%;
+}
+.main{
+    display: flex;
+    width: 80%;
+    margin: auto;
+}
+.text-left>h3{
+    color: rgb(1, 1, 85);
+    font-size: 30px;
+    padding: 50px 0;
+    padding-bottom: 0!important;
+}
+.text-left>p{
+    padding-top: 20px;
+    color: gray;
+}
+.img-right{
+    padding: 50px;
+}
+.main-frame{
+    width: 80%;
+    margin: auto;
+    display: flex;
+    justify-content: space-around;
+}
+.frame{
+    width: 20%;
+    margin: 50px;
+    border: gray 1px solid;
+    text-align: center;
+    border-radius: 10px;
+}
+.frame>p{
+    color:rgb(1, 1, 85) ;
+    font-size: 25px;
+    padding: 30px 0;
+}
+.text-frame{
+    color: gray !important;
+    width: 70%;
+    margin: auto;
+    font-size: 18px !important;
+}
+.footer{
+    background-color: rgb(1, 1, 85) ;
+    padding: 50px ;
+    text-align: center;
+}
+
